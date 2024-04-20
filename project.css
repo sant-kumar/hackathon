@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://media.istockphoto.com/id/1062585830/photo/war-zone.jpg?s=612x612&w=0&k=20&c=23fhhBH3slipcT_-giJ3PZaHYmwGKAwv6u1wjw8XrDY=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.med{
+    color: aliceblue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding some transparency */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; 
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #ff7f50; 
+}
+
+section {
+    padding: 20px 0;
+}
+
+.alert {
+    background-color: rgba(255, 255, 255, 0.8); /* Adding some transparency */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Adding rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adding box shadow */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Adding some transparency */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav ul {
+    margin-bottom: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: #fff;
+    margin-right: 10px;
+}
